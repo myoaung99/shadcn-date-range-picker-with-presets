@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="mx-auto max-w-3xl px-4 py-12 font-mono tracking-wide">
+    <div className="mx-auto max-w-3xl px-4 py-12 tracking-wide">
       <h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl font-sans">
         Date Range Picker Component
       </h1>
@@ -24,7 +24,7 @@ export default function Home() {
 
       <div className="mt-10 flex items-center justify-between border-b border-t py-6">
         <Button variant="outline" className="gap-2" asChild>
-          <Link href="#">
+          <Link href="https://github.com/myoaung99/shadcn-date-range-picker-with-presets.git">
             <Github className="h-4 w-4" />
             Github
           </Link>
@@ -100,7 +100,7 @@ export default function Home() {
 
         <h2 className="mt-10 text-2xl font-bold">Usage</h2>
         <pre className="mt-4 rounded-md bg-slate-900 p-4 text-sm text-white">
-          <code>{`import { DateRangePicker } from "@component/advanced-date-range-picker";
+          <code>{`import { DateRangePicker } from "@/component/advanced-date-range-picker";
 
 export default function MyComponent() {
   return (
@@ -113,14 +113,14 @@ export default function MyComponent() {
           <p>
             Check out the{" "}
             <Link
-              href="#"
+              href="https://github.com/myoaung99/shadcn-date-range-picker-with-presets.git"
               className="text-primary underline underline-offset-4"
             >
               project on GitHub
             </Link>{" "}
             for the{" "}
             <Link
-              href="#"
+              href="https://github.com/myoaung99/shadcn-date-range-picker-with-presets.git"
               className="text-primary underline underline-offset-4"
             >
               source
