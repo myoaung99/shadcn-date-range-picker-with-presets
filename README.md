@@ -10,7 +10,6 @@ A beautiful, accessible date range picker component built with shadcn/ui. This c
 - 📅 **Month & Year Dropdowns** - Quickly navigate to specific months and years
 - 🔍 **Preset Date Ranges** - One-click selection of common ranges (Last 7 Days, Last 30 Days, etc.)
 - 📊 **Multi-Month View** - See two months side-by-side for easier date range selection
-- ⌨️ **Text Input Support** - Directly type dates in addition to calendar selection
 - 📈 **Date Range Comparison** - Compare two different date ranges side by side
 - 📱 **Responsive Design** - Works beautifully on mobile, tablet, and desktop
 - ♿ **Keyboard Navigation** - Full keyboard support for accessibility
